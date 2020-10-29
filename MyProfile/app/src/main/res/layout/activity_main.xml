@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Muneiah Tellakula"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        app:fontFamily="@font/henny_penny" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="AO0515177"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:fontFamily="@font/alfa_slab_one" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Proddatur,Kadapa"
+        android:textColor="#FF9800"
+        android:textSize="30sp"
+        app:fontFamily="@font/aclonica" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/about_me"
+        android:textColor="#2196F3"
+        android:textSize="30sp"
+        app:fontFamily="@font/architects_daughter" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Profile Image"
+        android:textColor="#F44336"
+        android:textSize="30sp"
+        app:fontFamily="@font/amarante" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/muneiah_tellakula"
+        />
+</LinearLayout>
+</ScrollView>
