@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ui_Controls</string>
+    <string-array name="states">
+        <item>Andhra pradesh</item>
+        <item>Telangana</item>
+        <item>TamilNadu</item>
+        <item>Rajasthan</item>
+        <item>Kerala</item>
+        <item>Gujarath</item>
+        <item>New Delhi</item>
+
+    </string-array>
+</resources>

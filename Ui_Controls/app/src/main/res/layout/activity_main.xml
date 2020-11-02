@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Registration "
+        android:textSize="40sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+         />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_uname"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName"
+        android:hint="Enter the username "/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_email"
+        android:layout_margin="10dp"
+        android:inputType="textEmailAddress"
+        android:hint="Enter the email "/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_mobile"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:hint="Enter the mobile number "/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/male"
+            android:layout_margin="5dp"
+            android:text="Male"/>
+        <RadioButton
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/female"
+            android:text="FeMale"/>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telugu"
+            android:layout_margin="5dp"
+            android:id="@+id/telugu"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English"
+            android:layout_margin="5dp"
+            android:id="@+id/eng"/>
+        <CheckBox
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hindi"
+            android:id="@+id/hi"/>
+    </LinearLayout>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin"
+        android:layout_margin="10dp"
+        android:entries="@array/states"/>
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb"
+        android:layout_margin="10dp"
+        android:rating="3.5"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sb"
+        android:progress="40"
+        android:max="100"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="submit"
+        android:id="@+id/submit_button"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:textSize="40sp"
+        android:layout_margin="10dp"
+        android:text="Display Result "/>
+</LinearLayout>
+
+</ScrollView>
+</layout>
