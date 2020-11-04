@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display Result!"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="40sp"
+        android:id="@+id/tv"
+         />
+    <Button
+        style="@style/buttons_mesurements"
+        android:id="@+id/alert_button"
+        android:text="Show Alert"/>
+    <Button
+        style="@style/buttons_mesurements"
+        android:id="@+id/date_button"
+        android:text="Show Date"/>
+    <Button
+        style="@style/buttons_mesurements"
+        android:id="@+id/time_button"
+        android:text="Show Time"/>
+
+</LinearLayout>
+</layout>
