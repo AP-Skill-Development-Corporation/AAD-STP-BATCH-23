@@ -22,4 +22,9 @@
         android:name="com.muneiah.example.apssdcapp.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/about_us"
+        android:name="com.muneiah.example.apssdcapp.ui.about_us.AboutUsFragment"
+        android:label="About us"
+        tools:layout="@layout/fragment_about_us" />
 </navigation>
