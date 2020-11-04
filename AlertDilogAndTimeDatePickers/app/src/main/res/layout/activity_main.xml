@@ -20,7 +20,9 @@
         android:id="@+id/tv"
          />
     <Button
-        style="@style/buttons_mesurements"
+
+        style="@style/btn"
+        android:textSize="30sp"
         android:id="@+id/alert_button"
         android:text="Show Alert"/>
     <Button
@@ -31,6 +33,28 @@
         style="@style/buttons_mesurements"
         android:id="@+id/time_button"
         android:text="Show Time"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter the name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the password"
+            android:inputType="textPassword"/>
+    </com.google.android.material.textfield.TextInputLayout>
 
 </LinearLayout>
 </layout>
