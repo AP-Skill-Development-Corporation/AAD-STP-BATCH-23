@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/date"
+    android:text="Date"
+    android:textColor="@color/colorPrimary"
+    android:textSize="20sp"
+    android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/country"
+        android:text="Country"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cnfm"
+        android:text="Confirmed"
+        android:textColor="#FB0606"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/deaths"
+        android:text="Deaths"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recovered"
+        android:text="Recovered"
+        android:textColor="#05FF0F"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/active"
+        android:text="Active"
+        android:textColor="#E40551"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+</LinearLayout>
+</layout>
