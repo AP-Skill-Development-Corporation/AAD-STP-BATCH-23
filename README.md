@@ -50,8 +50,7 @@ Microphone and Speakers facility for Offline training program.
                   i. Tabs for navigation
       19. Recyclerview
       20. Working in the background
-      21. Fetching JSON Data from the internet using retrofit GET.
-            a. Discussion of various JSON Converters.
+      21. Fetching JSON Data from the internet using retrofit GET. Discussion of various JSON Converters.
           
       22. Broadcast Receivers
       23. Schedulers
